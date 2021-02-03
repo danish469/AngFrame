@@ -1,12 +1,12 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
-import { MatButtonModule } from "@angular/material/MatButtonModule";
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
+import { MaterialModule } from "./material/material.module";
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MatButtonModule],
+  imports: [BrowserModule, FormsModule, MaterialModule],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent]
 })
