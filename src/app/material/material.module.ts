@@ -1,9 +1,7 @@
 import { NgModule } from "@angular/core";
+import { MatButtonToggleModule } from "@angular/material/button-toggle";
 
-import {
-  MatButtonModule,
-  MatButtonToggleModule
-} from "@angular/material/button";
+import { MatButtonModule } from "@angular/material/button";
 const MaterialComponents = [MatButtonModule, MatButtonToggleModule];
 @NgModule({
   imports: [MaterialComponents],
